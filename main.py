@@ -303,7 +303,7 @@ def image_manipulation(load_path, starting_image, thresh, save_path = None, name
 def process_clas():
     load_path = ''
     starting_image = ''
-    thresh = 
+    thresh = 150
     path_model = ''
     
     
@@ -324,5 +324,5 @@ def process_create_model():
     save_path = ''
     creating_model(load_path, save_path)
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     #process_clas() / process_create_model()
